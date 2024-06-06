@@ -23,8 +23,8 @@
     --white: #fff;
     --green: #26d782;
     --red: #ee5454;
-    --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
-    --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
+    --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
 
 body.escuro{
@@ -196,5 +196,21 @@ main button:hover{
     .tema button div{
         width: 20px;
         height: 20px;   
+    }
+
+    main{
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    main h2,
+    main > div{
+        width: 100%;
+    }
+
+    main h2{
+        font-size: 64px;
     }
 }
