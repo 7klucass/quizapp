@@ -16,7 +16,6 @@ botoesAssunto.forEach(botao => {
     function selecionarAssunto(evento){
         const classeBotao = evento.target.className
         const assunto = document.querySelector(`.${classeBotao} span`).innerText
-        const assunto = evento.target.innerText
         localStorage.setItem("assunto", assunto)
         window.location.href = "./pages/quiz/quiz.html"
     }
